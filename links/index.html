@@ -101,17 +101,6 @@
         .rare-use:hover {
             background-color: #263238 !important;
         }
-
-        [disabled] {
-            background-color: #FF4500 !important; /* A different color for less frequent actions */
-            color: #e0e0e0 !important; /* Light gray for text */
-        }
-        
-        [disabled]:hover {
-            cursor: not-allowed !important; /* Indicate that the link is not clickable */
-            background-color: #e0e0e0 !important; /* Keep the background color the same on hover */
-            color: black !important; /* Change text color to black */
-        }
     </style>
     <title>Links - FF</title>
 </head>
@@ -129,8 +118,8 @@
         <a href="../subs_manager/">Subscription Manager <img src="../src/icons/subscriptions.png"></a>
         <a class="rare-use" href="../settings/">Settings <img src="../src/icons/settings.png"></a>
         <a class="rare-use" href="../">Info <img src="../src/icons/info.png"></a>
-        <a disabled class="rare-use" href="../legal/">Legal <img src="../src/icons/gavel.png"></a>
-        <a disabled class="rare-use" href="../changelog/">Changelog <img src="../src/icons/log.png"></a>
+        <a class="rare-use" href="../legal/">Legal <img src="../src/icons/gavel.png"></a>
+        <a class="rare-use" href="../version_control/">Other Versions <img src="../src/icons/log.png"></a>
     </div>
     <script>
         let searchbar = document.getElementById('search');
